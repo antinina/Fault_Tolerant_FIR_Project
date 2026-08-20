@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fir_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fir_tb" />
+            <top_module name="param_package" />
+            <top_module name="txt_util" />
+            <top_module name="util_pkg" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="469166fs"></ZoomStartTime>
+      <ZoomEndTime time="1058167fs"></ZoomEndTime>
+      <Cursor1Time time="1050000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="268"></NameColumnWidth>
+      <ValueColumnWidth column_width="123"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="24" />
+   <wave_markers>
+      <marker label="" time="860000" />
+      <marker label="" time="990000" />
+      <marker label="" time="690000" />
+      <marker label="" time="780000" />
+   </wave_markers>
+   <wvobject type="logic" fp_name="/fir_tb/clk_i_s">
+      <obj_property name="ElementShortName">clk_i_s</obj_property>
+      <obj_property name="ObjectShortName">clk_i_s</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fir_tb/start_check">
+      <obj_property name="ElementShortName">start_check</obj_property>
+      <obj_property name="ObjectShortName">start_check</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fir_tb/tmp_s">
+      <obj_property name="ElementShortName">tmp_s[23:0]</obj_property>
+      <obj_property name="ObjectShortName">tmp_s[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fir_tb/m_axis_tready_i_s">
+      <obj_property name="ElementShortName">m_axis_tready_i_s</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready_i_s</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fir_tb/m_axis_tdata_o_s">
+      <obj_property name="ElementShortName">m_axis_tdata_o_s[23:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata_o_s[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fir_tb/we_i_s">
+      <obj_property name="ElementShortName">we_i_s</obj_property>
+      <obj_property name="ObjectShortName">we_i_s</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fir_tb/coef_addr_i_s">
+      <obj_property name="ElementShortName">coef_addr_i_s[2:0]</obj_property>
+      <obj_property name="ObjectShortName">coef_addr_i_s[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fir_tb/coef_i_s">
+      <obj_property name="ElementShortName">coef_i_s[23:0]</obj_property>
+      <obj_property name="ObjectShortName">coef_i_s[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fir_tb/s_axis_tdata_i_s">
+      <obj_property name="ElementShortName">s_axis_tdata_i_s[23:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tdata_i_s[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fir_tb/s_axis_tvalid_i_s">
+      <obj_property name="ElementShortName">s_axis_tvalid_i_s</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tvalid_i_s</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fir_tb/s_axis_tready_o_s">
+      <obj_property name="ElementShortName">s_axis_tready_o_s</obj_property>
+      <obj_property name="ObjectShortName">s_axis_tready_o_s</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fir_tb/m_axis_tdata_o_s">
+      <obj_property name="ElementShortName">m_axis_tdata_o_s[23:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata_o_s[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fir_tb/m_axis_tvalid_o_s">
+      <obj_property name="ElementShortName">m_axis_tvalid_o_s</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tvalid_o_s</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fir_tb/m_axis_tready_i_s">
+      <obj_property name="ElementShortName">m_axis_tready_i_s</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tready_i_s</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fir_tb/uut/first_section/u_i">
+      <obj_property name="ElementShortName">u_i[23:0]</obj_property>
+      <obj_property name="ObjectShortName">u_i[23:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fir_tb/uut/\other_sections(7)\/fir_section/mac_out_s">
+      <obj_property name="ElementShortName">mac_out_s[4:0][47:0]</obj_property>
+      <obj_property name="ObjectShortName">mac_out_s[4:0][47:0]</obj_property>
+      <obj_property name="CustomSignalColor">#00FF00</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/fir_tb/uut/next_state">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/fir_tb/uut/state">
+      <obj_property name="ElementShortName">state</obj_property>
+      <obj_property name="ObjectShortName">state</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fir_tb/uut/error_array">
+      <obj_property name="ElementShortName">error_array[7:0]</obj_property>
+      <obj_property name="ObjectShortName">error_array[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/switch_inst/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="group" fp_name="group50">
+      <obj_property name="label">SWITCH_first_section</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject type="array" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/switch_inst/idx_a_s">
+         <obj_property name="ElementShortName">idx_a_s[2:0]</obj_property>
+         <obj_property name="ObjectShortName">idx_a_s[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/switch_inst/idx_b_s">
+         <obj_property name="ElementShortName">idx_b_s[2:0]</obj_property>
+         <obj_property name="ObjectShortName">idx_b_s[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/switch_inst/switch_output_o">
+         <obj_property name="ElementShortName">switch_output_o[47:0]</obj_property>
+         <obj_property name="ObjectShortName">switch_output_o[47:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/switch_inst/state">
+         <obj_property name="ElementShortName">state</obj_property>
+         <obj_property name="ObjectShortName">state</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="other" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/switch_inst/next_state">
+         <obj_property name="ElementShortName">next_state</obj_property>
+         <obj_property name="ObjectShortName">next_state</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/switch_inst/out_of_spares">
+         <obj_property name="ElementShortName">out_of_spares</obj_property>
+         <obj_property name="ObjectShortName">out_of_spares</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/error_signal_o">
+         <obj_property name="ElementShortName">error_signal_o</obj_property>
+         <obj_property name="ObjectShortName">error_signal_o</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/error_mismatch_s">
+         <obj_property name="ElementShortName">error_mismatch_s</obj_property>
+         <obj_property name="ObjectShortName">error_mismatch_s</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/\gen_voter(0)\/voter_inst/voter_unit/voter_o">
+         <obj_property name="ElementShortName">voter_o[47:0]</obj_property>
+         <obj_property name="ObjectShortName">voter_o[47:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/\gen_voter(1)\/voter_inst/voter_unit/voter_o">
+         <obj_property name="ElementShortName">voter_o[47:0]</obj_property>
+         <obj_property name="ObjectShortName">voter_o[47:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/\gen_voter(2)\/voter_inst/voter_unit/voter_o">
+         <obj_property name="ElementShortName">voter_o[47:0]</obj_property>
+         <obj_property name="ObjectShortName">voter_o[47:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/\gen_voter(3)\/voter_inst/voter_unit/voter_o">
+         <obj_property name="ElementShortName">voter_o[47:0]</obj_property>
+         <obj_property name="ObjectShortName">voter_o[47:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/switch_inst/idx_a_s">
+         <obj_property name="ElementShortName">idx_a_s[2:0]</obj_property>
+         <obj_property name="ObjectShortName">idx_a_s[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/switch_inst/idx_b_s">
+         <obj_property name="ElementShortName">idx_b_s[2:0]</obj_property>
+         <obj_property name="ObjectShortName">idx_b_s[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/switch_inst/idx_spare_s">
+         <obj_property name="ElementShortName">idx_spare_s[2:0]</obj_property>
+         <obj_property name="ObjectShortName">idx_spare_s[2:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/switch_inst/input_a_s">
+         <obj_property name="ElementShortName">input_a_s[47:0]</obj_property>
+         <obj_property name="ObjectShortName">input_a_s[47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/switch_inst/input_b_s">
+         <obj_property name="ElementShortName">input_b_s[47:0]</obj_property>
+         <obj_property name="ObjectShortName">input_b_s[47:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="group" fp_name="group157">
+      <obj_property name="label">gen_voter(0)\voter_inst</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <wvobject type="array" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/\gen_voter(0)\/voter_inst/voter_unit/voter_i">
+         <obj_property name="ElementShortName">voter_i[4:0][47:0]</obj_property>
+         <obj_property name="ObjectShortName">voter_i[4:0][47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/\gen_voter(0)\/voter_inst/voter_unit/voter_o">
+         <obj_property name="ElementShortName">voter_o[47:0]</obj_property>
+         <obj_property name="ObjectShortName">voter_o[47:0]</obj_property>
+      </wvobject>
+      <wvobject type="array" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/\gen_voter(0)\/voter_inst/fd_unit/bist_cnt">
+         <obj_property name="ElementShortName">bist_cnt[1:0]</obj_property>
+         <obj_property name="ObjectShortName">bist_cnt[1:0]</obj_property>
+      </wvobject>
+      <wvobject type="logic" fp_name="/fir_tb/uut/first_section/pair_n_spare_voter/\gen_voter(0)\/voter_inst/fd_unit/fault_signal_o">
+         <obj_property name="ElementShortName">fault_signal_o</obj_property>
+         <obj_property name="ObjectShortName">fault_signal_o</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject type="array" fp_name="/fir_tb/m_axis_tdata_o_s">
+      <obj_property name="ElementShortName">m_axis_tdata_o_s[23:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata_o_s[23:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/fir_tb/m_axis_tdata_o_s">
+      <obj_property name="ElementShortName">m_axis_tdata_o_s[23:0]</obj_property>
+      <obj_property name="ObjectShortName">m_axis_tdata_o_s[23:0]</obj_property>
+   </wvobject>
+</wave_config>
