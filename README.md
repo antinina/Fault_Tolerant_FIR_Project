@@ -6,7 +6,7 @@
 
   Start Vivado.
   In the Tcl Console change the current working directory to the root directory of the project.
-  Execute run.tcl script (command: source script/run.tcl). The script automatically create and configure Vivado project.
+  Execute run.tcl script (command: source script/run.tcl). The script will automatically create and configure Vivado project.
 
 - Adding Fault Scenarios to Simulation:
 
